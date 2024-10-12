@@ -14,11 +14,11 @@ import subprocess
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '' #Enter_Bot_Token_within_the_colons'
+TOKEN = '7556551624:AAHkeHMBLURU0nPgMrvJZv97s_utPwu3xTw' #Enter_Bot_Token_within_the_colons'
 MONGO_URI = 'mongodb+srv://deepaidb:51354579914@deepaidb.imzonfj.mongodb.net/?retryWrites=true&w=majority&appName=deepaidb'
-FORWARD_CHANNEL_ID =        # enter the log channel id 
-CHANNEL_ID =          # enter the same id as entered above
-error_channel_id =          # enter the same id 
+FORWARD_CHANNEL_ID = -1002470837004       # enter the log channel id 
+CHANNEL_ID =    -1002470837004      # enter the same id as entered above
+error_channel_id =   -1002470837004       # enter the same id 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
